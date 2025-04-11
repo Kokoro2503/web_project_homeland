@@ -1,0 +1,20 @@
+.html {
+  width: 1280px;
+  height: 2008px;
+  background-color: #2a2c2f;
+  color: #ffffff;
+}
+
+.page {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #2a2c2f;
+  color: #ffffff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
