@@ -3,7 +3,7 @@
   max-height: 16px;
   padding-top: 92px;
   padding-bottom: 24px;
-  align-items: center;
+  text-align: center;
 }
 
 .footer_copyright {
@@ -12,4 +12,16 @@
   line-height: 16px;
   letter-spacing: 0%;
   align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer {
+    padding-top: 64px;
+  }
 }
