@@ -1,15 +1,17 @@
 .header {
   display: flex;
-  justify-content: center;
-  padding-top: 34px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .header_logo {
-  width: 254px;
+  max-width: 300px;
+  padding-top: 10px;
+  padding-bottom: 92px;
   height: 70px;
 }
 
-@media screen and (min-width: 585px) and (max-width: 1024px) {
+@media screen and (max-width: 1020px) {
   .header {
     padding-top: 30px;
   }
@@ -18,11 +20,12 @@
   }
 }
 
-@media screen and (min-widht: 320px) and (max-width: 584px) {
+@media screen and (max-width: 540px) {
   .header {
     padding-top: 20px;
   }
   .header_logo {
-    height: 52px;
+    max-width: 190px;
+    padding-bottom: 50px;
   }
 }

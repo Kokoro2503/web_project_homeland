@@ -9,23 +9,29 @@
     <title>De patria a patria</title>
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
+    <style type="text/css">
+      @font-face {
+        font-family: "Atlassian Sans";
+        font-style: normal;
+        font-weight: 400 653;
+        font-display: swap;
+        src: url();
+      }
+    </style>
   </head>
   <body>
     <div class="page">
       <header class="header">
         <img src="./images/logo.svg" alt="Cuadro azul" class="header_logo" />
-      </header>
-
-      <main class="content">
         <section class="lead">
-          <div class="lead_content">
-            <h1 class="lead_title">
-              <span>De patria a </span><span>patria</span>
-            </h1>
-            <h2 class="lead_subtitle">
-              <span>Un viaje épico de Kentucky a Burundi pasando por</span>
-              <span> Gales y Ucrania</span>
-            </h2>
+          <h1 class="lead_title">
+            <span>De patria a </span><span>patria</span>
+          </h1>
+          <h2 class="lead_subtitle">
+            <span>Un viaje épico de Kentucky a Burundi pasando por</span>
+            <span> Gales y Ucrania</span>
+          </h2>
+          <div class="lead__content-image">
             <img
               src="./images/homeland_1.svg"
               alt="Pequeño pueblo en la costa"
@@ -33,7 +39,10 @@
             />
           </div>
         </section>
-        <section class="intro">
+      </header>
+
+      <main class="intro">
+        <section class="intro__content">
           <h1 class="intro_title">
             <span>Conoce un poco mejor los </span>
             <span>lugares de los que proceden </span>

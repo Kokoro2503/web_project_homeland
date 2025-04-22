@@ -1,9 +1,6 @@
 .footer {
-  max-width: 194px;
-  max-height: 16px;
-  padding-top: 92px;
-  padding-bottom: 24px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer_copyright {
@@ -22,6 +19,6 @@
 
 @media screen and (max-width: 540px) {
   .footer {
-    padding-top: 64px;
+    line-height: 14px;
   }
 }
