@@ -4,22 +4,20 @@
 
 .content__intro {
   max-width: 990px;
-  min-height: 607px;
-  margin: 92px auto;
+  margin: 92px 225px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .content_title {
-  width: 716px;
-  height: 174px;
+  width: 735px;
+  height: 174;
   font-size: 54px;
   line-height: 58px;
 }
 
 .content_text-main {
-  width: 648px;
+  width: 665px;
   height: 136px;
   padding-top: 10px;
   font-weight: 400;
@@ -28,7 +26,7 @@
 }
 
 .content_text-author {
-  text-align: right;
+  text-align: left;
   margin: 0;
   padding: 0;
   position: relative;
@@ -36,7 +34,7 @@
 }
 
 .content_text-element {
-  width: 614px;
+  width: 685px;
   height: 182px;
   padding-top: 32px;
   font-weight: 400;

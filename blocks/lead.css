@@ -5,21 +5,12 @@
   font-family: "Inter", Arial, sans-serif;
 }
 
-.lead_content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 984px;
-  max-height: 983px;
-  align-items: center;
-}
-
 .lead_title {
   max-width: 720px;
   margin: 0 auto;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1.5;
   text-align: center;
 }
 
