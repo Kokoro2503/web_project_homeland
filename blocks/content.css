@@ -4,7 +4,7 @@
 
 .content__intro {
   max-width: 990px;
-  margin: 92px 225px;
+  margin: 92px auto;
   display: flex;
   flex-direction: column;
 }
@@ -26,11 +26,11 @@
 }
 
 .content_text-author {
-  text-align: left;
+  text-align: right;
   margin: 0;
   padding: 0;
   position: relative;
-  right: 340px;
+  right: 6px;
 }
 
 .content_text-element {
